@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ABC College Admission 2026</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 0; }
+header { background-color: #22207a; color: white; text-align: center; padding: 12px; }
+footer { background-color: #22207a; color: white; text-align: center; padding: 10px; font-size: 14px; }
+main { width: 80%; margin: auto; padding: 15px; }
+table { border-collapse: collapse; width: 80%; }
+th { background-color: #e6e6f2; }
+caption { caption-side: top; font-size: 13px; margin-bottom: 5px; }
+fieldset { width: 60%; }
+</style>
+</head>
+<body>
+
+<header>
+<h2>ABC College Admission 2026</h2>
+</header>
+
+<main>
+<h3>Courses and Fees</h3>
+
+<table border="1" cellpadding="6">
+<caption>Available Courses</caption>
+<tr>
+<th>Course</th>
+<th>Seats</th>
+<th>Fees</th>
+</tr>
+<tr>
+<td>B.Tech CSE</td>
+<td>120</td>
+<td>₹90,000</td>
+</tr>
+<tr>
+<td>BCA</td>
+<td>60</td>
+<td>₹45,000</td>
+</tr>
+</table>
+
+<br>
+
+<form action="submit.php" method="post">
+<fieldset>
+<legend>Application Form</legend>
+
+<label for="name">Name:</label><br>
+<input type="text" id="name" required><br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" id="email" required><br><br>
+
+<label for="course">Course:</label><br>
+<select id="course">
+<option>B.Tech CSE</option>
+<option>BCA</option>
+</select><br><br>
+
+<label for="statement">Statement:</label><br>
+<textarea id="statement" rows="4" cols="40"></textarea><br><br>
+
+<button type="submit">Apply</button>
+
+</fieldset>
+</form>
+
+</main>
+
+<footer>
+&copy; 2026 ABC College
+</footer>
+
+</body>
+</html>
